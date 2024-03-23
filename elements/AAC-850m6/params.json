@@ -1,0 +1,32 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Formatter",
+    "fields": {
+        "AAE": {
+            "caption": "Phone Number",
+            "editor": "DynamicValue",
+            "name": "phone_number",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAF": {
+            "caption": "Formatted Phone Number",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "formatted_phone_number",
+            "value": "text"
+        }
+    }
+}
